@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html ng-app="AbnTest">
+
+<head>
+    <meta name="generator" content="HTML Tidy for HTML5 (experimental) for Windows https://github.com/w3c/tidy-html5/tree/c63cc39" />
+    <meta name="keywords" content="智慧环卫" />
+    <meta name="description" content="深圳龙澄高科智慧环卫" />
+    <title>智慧环卫v1.0</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet" /> -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="theme/cerulean/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/abn_tree.css">
+</head>
+
+<body ng-controller="AbnTestController">
+    <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                </button>
+                <a class="navbar-brand">
+                    <img height="20" alt="Brand" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAA81BMVEX///9VPnxWPXxWPXxWPXxWPXxWPXxWPXz///9hSYT6+vuFc6BXPn37+vz8+/z9/f2LeqWMe6aOfqiTg6uXiK5bQ4BZQX9iS4VdRYFdRYJfSINuWI5vWY9xXJF0YJR3Y5Z4ZZd5ZZd6Z5h9apq0qcW1qsW1q8a6sMqpnLyrn76tocCvpMGwpMJoUoprVYxeRoJjS4abjLGilLemmbrDutDFvdLPx9nX0eDa1OLb1uPd1+Td2OXe2eXh3Ofj3+nk4Orl4evp5u7u7PLv7fPx7/T08vb08/f19Pf29Pj39vn6+fuEcZ9YP35aQn/8/P1ZQH5fR4PINAOdAAAAB3RSTlMAIWWOw/P002ipnAAAAPhJREFUeF6NldWOhEAUBRvtRsfdfd3d3e3/v2ZPmGSWZNPDqScqqaSBSy4CGJbtSi2ubRkiwXRkBo6ZdJIApeEwoWMIS1JYwuZCW7hc6ApJkgrr+T/eW1V9uKXS5I5GXAjW2VAV9KFfSfgJpk+w4yXhwoqwl5AIGwp4RPgdK3XNHD2ETYiwe6nUa18f5jYSxle4vulw7/EtoCdzvqkPv3bn7M0eYbc7xFPXzqCrRCgH0Hsm/IjgTSb04W0i7EGjz+xw+wR6oZ1MnJ9TWrtToEx+4QfcZJ5X6tnhw+nhvqebdVhZUJX/oFcKvaTotUcvUnY188ue/n38AunzPPE8yg7bAAAAAElFTkSuQmCC" />
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">前端收集<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li>
+                                <a href="#">Action</a>
+                            </li>
+                            <li>
+                                <a href="#">Another action</a>
+                            </li>
+                            <li>
+                                <a href="#">Something else here</a>
+                            </li>
+                            <li>
+                                <a href="#">Separated link</a>
+                            </li>
+                            <li>
+                                <a href="#">One more separated link</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">车辆运输<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li>
+                                <a href="#">Action</a>
+                            </li>
+                            <li>
+                                <a href="#">Another action</a>
+                            </li>
+                            <li>
+                                <a href="#">Something else here</a>
+                            </li>
+                            <li>
+                                <a href="#">Separated link</a>
+                            </li>
+                            <li>
+                                <a href="#">One more separated link</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">中转处理<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li>
+                                <a href="#">Action</a>
+                            </li>
+                            <li>
+                                <a href="#">Another action</a>
+                            </li>
+                            <li>
+                                <a href="#">Something else here</a>
+                            </li>
+                            <li>
+                                <a href="#">Separated link</a>
+                            </li>
+                            <li>
+                                <a href="#">One more separated link</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">终端处置<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li>
+                                <a href="#">Action</a>
+                            </li>
+                            <li>
+                                <a href="#">Another action</a>
+                            </li>
+                            <li>
+                                <a href="#">Something else here</a>
+                            </li>
+                            <li>
+                                <a href="#">Separated link</a>
+                            </li>
+                            <li>
+                                <a href="#">One more separated link</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <p class="navbar-right navbar-text" contenteditable="false">管理员：Administrator</p>
+                <a class="btn btn-default navbar-btn navbar-right" href="#" data-toggle="button"><span class="glyphicon glyphicon-off"></span></a>
+                <!-- <a class="btn btn-danger radius" href="#" data-toggle="button">退出</a> -->
+                <form class="navbar-form navbar-right text-left" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search" />
+                    </div>
+                    <button type="submit" class="btn btn-default">搜索</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="col-md-2" >
+                <div class="panel panel-primary" >
+                    <!-- Default panel contents -->
+                    <div class="panel-heading ">主菜单
+                        <button ng-click="my_tree.expand_all()" class="btn-primary pull-right"><span class="glyphicon glyphicon-plus "></span></button>
+                        <button ng-click="my_tree.collapse_all()" class="btn-primary pull-right"><span class="glyphicon glyphicon-minus "></span></button>
+                    </div>
+                    <div>
+                        <span ng-if="doing_async">...loading...</span>
+                        <abn-tree tree-data="my_data" tree-control="my_tree" on-select="my_tree_handler(branch)" expand-level="2" initial-selection="Granny Smith"></abn-tree>
+                    </div>
+                </div>
+            </div>
+                <!--Sidebar content-->
+               <div class="col-md-10">
+                   Body content Nav tabs
+                   <ul class="nav nav-tabs" role="tablist" id="myTab">
+                       <li role="presentation" class="active">
+                           <a href="#home" data-toggle="tab" aria-controls="home" role="tab">主页</a>
+                       </li>
+                       <li role="presentation">
+                           <a href="#svn" data-toggle="tab" aria-controls="SVN" role="tab">SVN</a>
+                       </li>
+                       <li role="presentation">
+                           <a href="#ios" data-toggle="tab" aria-controls="iOS" role="tab">iOS</a>
+                       </li>
+                       <li role="presentation">
+                           <a href="#vb" data-toggle="tab" aria-controls="VB" role="tab">VB.Net</a>
+                       </li>
+                       <li role="presentation">
+                           <a href="#java" data-toggle="tab" aria-controls="Java" role="tab">Java</a>
+                       </li>
+                       <li role="presentation">
+                           <a href="#php" data-toggle="tab" aria-controls="php" role="tab">PHP</a>
+                       </li>
+                   </ul>
+                   <div class="table-content" id="myTabContent">
+                       <div class="tab-pane fade in active" id="home">
+                           <button ng-click="try_changing_the_tree_data()" class="btn btn-default btn-sm">Change The Tree Definition</button>
+                           <br>
+                           <br>
+                           <br>
+                           <button ng-click="try_async_load()" class="btn btn-default btn-sm">Load Tree Data Asynchronously</button>
+                           <br>
+                       </div>
+                       <div class="tab-pane fade in" id="ios">
+                           <p>iOS 是一个由苹果公司开发和发布的手机操作系统。最初是于 2007 年首次发布 iPhone、iPodTouch 和 Apple TV。iOS派生自 OS X，它们共享 Darwin 基础。OS X操作系统是用在苹果电脑上，iOS 是苹果的移动版本。</p>
+                       </div>
+                       <div class="tab-pane fade in" id="vb">
+                           <p>jMeter 是一款开源的测试软件。它是 100% 纯 Java 应用程序，用于负载和性能测试。</p>
+                       </div>
+                       <div class="tab-pane fade in" id="java">
+                           <p>Enterprise JavaBeans（EJB）是一个创建高度可扩展性和强大企业级应用程序的开发架构，部署在兼容应用程序服务器（比如JBOSS、WebLogic 等）的 J2EE 上。</p>
+                       </div>
+                       <div class="tab-pane fade in" id="svn">
+                           <p>svn是一个版本控制软件</p>
+                       </div>
+                   </div>
+               </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <p class="text-muted">Place sticky footer content here.</p>
+            </div>
+        </footer>
+        <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/angularjs/angular.js"></script>
+        <script type="text/javascript" src="js/angularjs/angular-animate.js"></script>
+        <script type="text/javascript" src="js/abn_tree_directive.js"></script>
+        <script type="text/javascript" src="js/index_page.js"></script>
+</body>
+
+</html>

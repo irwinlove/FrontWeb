@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* ------------IC ui前端框架-----------------------
+IC-ui.zhhw.css v1.0
+Copyright IC-ui Inc.
+http://www.IC-ui.net
+date:2015.7.27
+Created & Modified by Irwin-Chen.
+----------------------------------------------*/
+/*--------HTML5 reset--------*/
+aside{display:block;margin:0;padding:0;word-wrap:break-word}
+
+
+
+.I-aside{background-color:#333;border-right: 1px solid #222}/*侧边栏*/
+.I-aside{position: absolute;top:44px;bottom:0;left:0;padding-top:10px;width:199px;z-index:99;overflow:auto}
+.I-aside{-moz-transition: all 0.2s ease 0s;-webkit-transition: all 0.2s ease 0s;-ms-transition: all 0.2s ease 0s;-o-transition: all 0.2s ease 0s;transition: all 0.2s ease 0s}
+.I-aside{ left:-200px}
+
+
+/*横向手机 竖向平板*/
+@media (max-width: 767px) {
+	html{ overflow-y:auto}	
+	#Hui-nav{margin-left:130px!important; margin-right:60px}
+	#Hui-nav li{width:24%;font-weight:bold;font-size:16px}
+	#Hui-nav li a{ display:block}
+		.Hui-nav-toggle{ display:block}
+	.I-aside{ display:none;float:none; width:100%; height:auto; margin-top:0;padding-top:0;bottom:auto}
+	.big-page .I-aside{ left:0!important}
+	.Hui-subtitle,.dislpayArrow,.Hui-userbox,.Hui-tabNav{ display:none}
+		.menu_dropdown dt{line-height:44px}
+		.menu_dropdown li,.menu_dropdown dd li,.menu_dropdown dd li a{ line-height:44px}
+  .Hui-tabNav{ position:fixed; z-index:998}
+  .Hui-article-box{ position:static; left:0}
+  .Hui-article-box .pd-20{padding:20px 10px}
+		.Hui-article{left:0}
+		.Hui-container .bk-gray{ border:none}
+		.Hui-container .pd-10{ padding:0}
+}
